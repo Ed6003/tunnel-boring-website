@@ -12,10 +12,10 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default","air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Engineering Portfolio"
 title_separator          : "-"
@@ -72,7 +72,7 @@ search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -105,19 +105,19 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-NLLZDZ7R8S"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Edoardo Rusconi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://media.licdn.com/dms/image/v2/D5603AQEVmSaUC69ywQ/profile-displayphoto-shrink_400_400/B56ZOEQE0rG4Ag-/0/1733090628425?e=1738800000&v=beta&t=dmneQN6bxNpWEUl9D7AJlIfiINfBBOULLAJB-Dkrgvc" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "3rd Year Mechanical Engineer"
   location         : "UK and Italy"
-  email            : "edo.rusconi@gmail.com"
+  email            : # "edo.rusconi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,18 +125,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedIn"
+      url: "https://www.linkedin.com/in/edoardo-rusconi/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Ed6003"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -329,3 +323,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+enable_copy_code_button: true
+search: true
+
+social:
+  type:  "Person" # Person or Organization (defaults to Person)
+  name:  "Edoardo Rusconi" # If the user or organization name differs from the site's name
+  links:
+    - "https://www.linkedin.com/in/edoardo-rusconi/"
