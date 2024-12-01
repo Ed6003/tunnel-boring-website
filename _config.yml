@@ -115,50 +115,33 @@ analytics:
 author:
   name             : "Edoardo Rusconi"
   avatar           : "https://media.licdn.com/dms/image/v2/D5603AQEVmSaUC69ywQ/profile-displayphoto-shrink_400_400/B56ZOEQE0rG4Ag-/0/1733090628425?e=1738800000&v=beta&t=dmneQN6bxNpWEUl9D7AJlIfiINfBBOULLAJB-Dkrgvc" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "3rd Year Mechanical Engineer"
+  bio              : "3rd Year Mechanical Engineer
+  University of Warwick"
   location         : "UK and Italy"
   email            : # "edo.rusconi@gmail.com"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/edoardo-rusconi/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:edo.rusconi@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedIn"
-      url: "https://www.linkedin.com/in/edoardo-rusconi/"
+      url: "mailto:edo.rusconi@gmail.com?subject=Enquiry&body=Hi%20Edoardo,%0A%0AI%20found%20your%20email%20on%20your%20website."
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Ed6003"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/edoardo-rusconi/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:edo.rusconi@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "mailto:edo.rusconi@gmail.com?subject=Enquiry&body=Hi%20Edoardo,%0A%0AI%20found%20your%20email%20on%20your%20website."
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Ed6003"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
