@@ -1,0 +1,4 @@
+Autodesk Fusion 360
+Abaqus
+CAD / CAM
+Finite Element Analysis (FEA)
