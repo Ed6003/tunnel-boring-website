@@ -1,24 +1,9 @@
 ---
 layout: default
 permalink: /test/
-head_scripts:
-#  - /assets/Portfolio/WarwickTunnelBoring/AnimatedHeader.js
-  - /assets/js/app.js
-#  - https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
 page_js:
   - /assets/js/app.js
-#  - https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
-#  - /assets/Portfolio/WarwickTunnelBoring/AnimatedHeader.js
-#  - /assets/js/app.js
-#  - /assets/js/particles.js
-#  - /assets/js/particles.min.js
 ---
-
-
-<!-- count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
 
 <!-- particles.js container -->
 <div id="particles-js"></div>
