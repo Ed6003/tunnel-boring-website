@@ -1,9 +1,8 @@
 ---
-title: Title
-date: 2024-01-02
-layout: collection
+title: Blog Entry Template
+date: 2024-12-07
+layout: single
 permalink: /blog/
-collection: portfolio
 entries_layout: grid
 classes: wide
 #header:
@@ -16,6 +15,5 @@ tags:
   - "hello"
 author_profile: true
 ---
-# Title
 
-Lorem Ipsum
+Name the blog post in _posts as year-month-day-name.md. For example 2025-02-01-Test would be for the 1st of February, 2025.
