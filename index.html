@@ -37,17 +37,31 @@ author_profile: true
   </script>
 
   <script>
-    // Ensure the script runs after the DOM is fully loaded
     document.addEventListener('DOMContentLoaded', function() {
-        // Add an event listener to the #magic div
-        document.getElementById('magic').addEventListener('click', function() {
-            // Log the click event (for debugging, optional)
+        let timeout; // Variable to store the timeout reference
+
+        const targetUrl = "{{ site.baseurl }}/portfolio"; // Construct URL using Jekyll's site.baseurl
+
+        function navigate() {
+            console.log('Navigating to:', targetUrl);
+            window.location.href = targetUrl; // Redirect to the constructed URL
+        }
+
+        document.getElementById('magic').addEventListener('mousedown', function() {
             console.log('Magic div clicked!');
 
-            // Wait for 2 seconds (2000 milliseconds) then navigate to the link
-            setTimeout(function() {
-                window.location.href = "{{ site.baseurl }}/portfolio"; // Replace with your desired URL
-            }, 2000);
+            // Start a timeout that will navigate after 2 seconds
+            timeout = setTimeout(navigate, 2000);
+        });
+
+        // Clear the timeout if the mouse is released before 2 seconds
+        document.addEventListener('mouseup', function() {
+            clearTimeout(timeout);
+        });
+
+        // Optionally, also clear the timeout if the mouse leaves the div
+        document.getElementById('magic').addEventListener('mouseleave', function() {
+            clearTimeout(timeout);
         });
     });
 </script>
