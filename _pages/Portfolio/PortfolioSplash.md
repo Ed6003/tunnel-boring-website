@@ -95,7 +95,7 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-<script src="{{ '/_pages/Portfolio/app.js' | relative_url }}" defer></script>
+<script src="{{ '_site/_pages/Portfolio/app.js' | relative_url }}" defer></script>
 <!-- The types are type = center, left, right and there's another one where there's none -->
 
 {% include feature_row id="intro" type="center" %}
