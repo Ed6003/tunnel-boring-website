@@ -2,7 +2,7 @@
 title: Warwick Tunnel Boring
 date: 2024-01-02
 layout: single
-permalink: /portfolio/warwickracing
+permalink: /portfolio/warwick-racing
 collection: portfolio
 entries_layout: grid
 classes: wide

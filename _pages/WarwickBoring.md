@@ -2,7 +2,7 @@
 title: Warwick Tunnel Boring
 date: 2024-01-02
 layout: single
-permalink: /portfolio/warwicktunnelboring
+permalink: /portfolio/warwick-tunnel-boring
 collection: portfolio
 entries_layout: grid
 classes: wide
