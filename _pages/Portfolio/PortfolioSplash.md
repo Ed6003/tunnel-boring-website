@@ -13,10 +13,10 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row1:
   - image_path: _pages/Portfolio/WarwickBoringLogo.png
-    alt: "Warwick Boring Logo"
-    title: "Warwick Boring"
+    alt: "Warwick Tunnel Boring Logo"
+    title: "Warwick Tunnel Boring"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/portfolio/warwicktunnelboring"
+    url: "/portfolio/warwick-tunnel-boring"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: _pages/Portfolio/WarwickRacingLogo.png
@@ -24,7 +24,7 @@ feature_row1:
     alt: "Warwick Racing Logo"
     title: "Warwick Racing"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/portfolio/warwickracing"
+    url: "/portfolio/warwick-racing"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
@@ -96,6 +96,7 @@ feature_row4:
 ---
 
 <script src="{{ site.baseurl }}/_pages/Portfolio/app.js" defer></script>
+<script src="{{ site.baseurl }}/_pages/Portfolio/auto-resize.js" defer></script>
 <!-- The types are type = center, left, right and there's another one where there's none -->
 
 {% include feature_row id="intro" type="center" %}
