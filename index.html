@@ -56,11 +56,15 @@ author_profile: true
 
         // Clear the timeout if the mouse is released before 2 seconds
         document.addEventListener('mouseup', function() {
+            console.log('Navigating to:', targetUrl);
+            window.location.href = targetUrl; // Redirect to the constructed URL
             clearTimeout(timeout);
         });
 
         // Optionally, also clear the timeout if the mouse leaves the div
         document.getElementById('magic').addEventListener('mouseleave', function() {
+            console.log('Navigating to:', targetUrl);
+            window.location.href = targetUrl; // Redirect to the constructed URL
             clearTimeout(timeout);
         });
     });
