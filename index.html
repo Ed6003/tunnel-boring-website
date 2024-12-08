@@ -4,6 +4,7 @@ author_profile: true
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/custom/interactive-text.js" defer></script>
+<script src="{{ site.baseurl }}/assets/js/custom/git-text.js" defer></script>
 
 <script type="x-shader/x-vertex" id="vertexshader">
 
@@ -66,7 +67,42 @@ author_profile: true
   <div id="magic"></div>
   <div class="playground"></div>
 
+  <div class="git-contributions">
+    <div class="months">
+        <p>Jan</p>
+        <p>Feb</p>
+        <p>Mar</p>
+        <p>Apr</p>
+        <p>May</p>
+        <p>Jun</p>
+        <p>Jul</p>
+        <p>Aug</p>
+        <p>Sep</p>
+        <p>Oct</p>
+        <p>Nov</p>
+        <p>Dec</p>
+    </div>
+    <div class="contribute-calendar">
+        <div class="weeks">
+            <p>Mon</p>
+            <p>Wed</p>
+            <p>Fri</p>
+        </div>
+        <div>
+            <div id="led-container"></div>
+            <div class="bottom-scale">
+                <p>Less</p>
+                <div class="color-box legend-1"></div>
+                <div class="color-box legend-2"></div>
+                <div class="color-box legend-3"></div>
+                <div class="color-box legend-4"></div>
+                <div class="color-box legend-5"></div>
+                <p>More</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <h2>Filter Posts</h2>
 <a class="btn btn--primary" href="{{ site.baseurl }}/year-archive/">Yearly Archive</a>
 <a class="btn btn--primary" href="{{ site.baseurl }}/tags/">By Tags</a>
-

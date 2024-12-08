@@ -108,13 +108,13 @@ feature_row4:
 {% include feature_row id="feature_row1" type="center" %}
 
 <div style="text-align: center;">
-  <h1>Personal Projects</h1>
+  <h1>Team Projects</h1>
 </div>
 
 {% include feature_row id="feature_row2" %}
 
 <div style="text-align: center;">
-  <h1>Team Projects</h1>
+  <h1>Personal Projects</h1>
 </div>
 
 {% include feature_row id="feature_row3" %}
