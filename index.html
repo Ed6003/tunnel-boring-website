@@ -2,7 +2,60 @@
 layout: home
 author_profile: true
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/custom/interactive-text.js" defer></script>
+
+<script type="x-shader/x-vertex" id="vertexshader">
+
+    attribute float size;
+    attribute vec3 customColor;
+    varying vec3 vColor;
+  
+    void main() {
+  
+      vColor = customColor;
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+      gl_PointSize = size * ( 300.0 / -mvPosition.z );
+      gl_Position = projectionMatrix * mvPosition;
+  
+    }
+  
+  </script>
+  <script type="x-shader/x-fragment" id="fragmentshader">
+  
+   uniform vec3 color;
+   uniform sampler2D pointTexture;
+  
+   varying vec3 vColor;
+  
+   void main() {
+  
+     gl_FragColor = vec4( color * vColor, 1.0 );
+     gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+  
+   }
+  </script>
+
+  <script>
+    // Ensure the script runs after the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add an event listener to the #magic div
+        document.getElementById('magic').addEventListener('click', function() {
+            // Log the click event (for debugging, optional)
+            console.log('Magic div clicked!');
+
+            // Wait for 2 seconds (2000 milliseconds) then navigate to the link
+            setTimeout(function() {
+                window.location.href = "{{ site.baseurl }}/portfolio"; // Replace with your desired URL
+            }, 2000);
+        });
+    });
+</script>
+
+  <div id="magic"></div>
+  <div class="playground"></div>
 
 <h2>Filter Posts</h2>
 <a class="btn btn--primary" href="{{ site.baseurl }}/year-archive/">Yearly Archive</a>
 <a class="btn btn--primary" href="{{ site.baseurl }}/tags/">By Tags</a>
+
