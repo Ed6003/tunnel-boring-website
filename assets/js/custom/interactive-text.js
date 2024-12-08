@@ -99,7 +99,7 @@ const preload = () => {
   
           this.data = {
   
-              text: 'Engineering Portfolio\nClick Me',
+              text: 'Engineering Portfolio\nClick and Hold!',
               amount: 100,
               particleSize: 1,
               particleColor: 0xffffff,

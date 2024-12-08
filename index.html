@@ -60,13 +60,6 @@ author_profile: true
             window.location.href = targetUrl; // Redirect to the constructed URL
             clearTimeout(timeout);
         });
-
-        // Optionally, also clear the timeout if the mouse leaves the div
-        document.getElementById('magic').addEventListener('mouseleave', function() {
-            console.log('Navigating to:', targetUrl);
-            window.location.href = targetUrl; // Redirect to the constructed URL
-            clearTimeout(timeout);
-        });
     });
 </script>
 
