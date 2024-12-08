@@ -20,7 +20,7 @@ header:
   overlay_color: "#000"
 ---
 
-<script src="{{ site.baseurl }}/_posts/2024-12-07-An_Adaptive_Particle_Header/app.js" defer></script>
-<script src="{{ site.baseurl }}/_posts/2024-12-07-An_Adaptive_Particle_Header/auto-resize.js" defer></script>
+<script src="{{ site.baseurl }}/_posts/test/app.js" defer></script>
+<script src="{{ site.baseurl }}/_posts/test/auto-resize.js" defer></script>
 
 Name the blog post in _posts as year-month-day-name.md. For example 2025-02-01-Test would be for the 1st of February, 2025.
