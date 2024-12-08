@@ -100,10 +100,10 @@ const preload = () => {
           this.data = {
   
               text: 'Engineering Portfolio\nClick Me',
-              amount: 100,
+              amount: 500,
               particleSize: 1,
               particleColor: 0xffffff,
-              textSize: 10,
+              textSize: getScreenSizeValue(),
               area: 250,
               ease: 0.05,
           }
@@ -382,4 +382,22 @@ const preload = () => {
          
           return Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
       }
-  }  
+  }
+
+  function getScreenSizeValue() {
+    const width = window.innerWidth; // Get the screen width
+
+    if (width >= 1200) {
+        // Laptop or larger
+        return 18; // Example value for laptops
+    } else if (width >= 768) {
+        // Tablet
+        return 14; // Example value for tablets
+    } else if (width >= 480) {
+        // Mobile devices (large phones)
+        return 10; // Example value for larger smartphones
+    } else {
+        // Very small screens (e.g., older smartphones)
+        return 8; // Example value for smaller smartphones
+    }
+}

@@ -39,7 +39,7 @@ author_profile: true
   <script>
     document.addEventListener('DOMContentLoaded', function() {
         let timeout; // Variable to store the timeout reference
-
+        let holdStartTime; // To track the start time of the hold
         const targetUrl = "{{ site.baseurl }}/portfolio"; // Construct URL using Jekyll's site.baseurl
 
         function navigate() {
@@ -49,16 +49,23 @@ author_profile: true
 
         document.getElementById('magic').addEventListener('mousedown', function() {
             console.log('Magic div clicked!');
+            holdStartTime = Date.now(); // Record the start time of the hold
 
             // Start a timeout that will navigate after 2 seconds
-            timeout = setTimeout(navigate, 2000);
+            timeout = setTimeout(navigate, 2000); // Long hold navigation
         });
 
-        // Clear the timeout if the mouse is released before 2 seconds
         document.addEventListener('mouseup', function() {
-            console.log('Navigating to:', targetUrl);
-            window.location.href = targetUrl; // Redirect to the constructed URL
-            clearTimeout(timeout);
+            const holdDuration = Date.now() - holdStartTime; // Calculate how long the mouse was held down
+            clearTimeout(timeout); // Clear the long hold timeout
+
+            if (holdDuration < 400) {
+                // If held for less than 400 ms, set a new timeout for 500 ms
+                setTimeout(navigate, 1000);
+            } else {
+                // If held for more than 400 ms, navigate immediately
+                navigate();
+            }
         });
     });
 </script>
