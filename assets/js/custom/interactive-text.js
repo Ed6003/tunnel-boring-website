@@ -393,11 +393,8 @@ const preload = () => {
     } else if (width >= 768) {
         // Tablet
         return 14; // Example value for tablets
-    } else if (width >= 480) {
-        // Mobile devices (large phones)
-        return 10; // Example value for larger smartphones
     } else {
         // Very small screens (e.g., older smartphones)
-        return 8; // Example value for smaller smartphones
+        return 10; // Example value for smaller smartphones
     }
 }
