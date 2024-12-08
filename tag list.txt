@@ -2,3 +2,7 @@ Autodesk Fusion 360
 Abaqus
 CAD / CAM
 Finite Element Analysis (FEA)
+Jekyll
+JavaScript
+Coding
+Web Design

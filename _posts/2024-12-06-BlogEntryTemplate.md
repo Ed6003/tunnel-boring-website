@@ -2,7 +2,6 @@
 title: Blog Entry Template
 date: 2024-12-06
 layout: single
-permalink: /blog/
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 #header:
@@ -18,6 +17,7 @@ toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
+tagline: ""
 ---
 
 Name the blog post in _posts as year-month-day-name.md. For example 2025-02-01-Test would be for the 1st of February, 2025.
