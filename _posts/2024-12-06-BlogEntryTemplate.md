@@ -9,15 +9,18 @@ entries_layout: grid
 #  image_description: "Tunnel Interior Splash Screen"
 pagination: 
   enabled: true
-tags:
-  - "test"
-  - "hello"
+#tags:
+#  - "test"
+#  - "hello"
 author_profile: true
 toc: true
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 tagline: ""
+read_time: true
+share: true
+related: true
 ---
 
 Name the blog post in _posts as year-month-day-name.md. For example 2025-02-01-Test would be for the 1st of February, 2025.

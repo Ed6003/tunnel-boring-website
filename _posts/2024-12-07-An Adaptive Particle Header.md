@@ -23,6 +23,9 @@ toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
 tagline: ""
+read_time: true
+share: true
+related: true
 ---
 
 # Creating Dynamic Particle Effects with JavaScript
