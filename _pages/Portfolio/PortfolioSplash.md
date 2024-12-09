@@ -99,7 +99,7 @@ feature_row4:
 <script src="{{ site.baseurl }}/_pages/Portfolio/auto-resize.js" defer></script>
 <!-- The types are type = center, left, right and there's another one where there's none -->
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 <div style="text-align: center;">
   <h1>Student Projects</h1>

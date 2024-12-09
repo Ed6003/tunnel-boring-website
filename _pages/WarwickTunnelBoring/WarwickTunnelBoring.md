@@ -7,7 +7,7 @@ collection: portfolio
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
-  overlay_image: /assets/Portfolio/WarwickTunnelBoring/Warwick-Boring-Splash.jpg
+  overlay_image: /assets/Portfolio/Warwick-Boring-Splash.jpg
   image_description: "Tunnel Interior Splash Screen"
 pagination: 
   enabled: true
