@@ -1,13 +1,12 @@
 ---
 title: Warwick Racing
-date: 2024-01-02
 layout: single
 permalink: /portfolio/warwick-racing
 collection: portfolio
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
-  overlay_image: /assets/Portfolio/Warwick-Racing-Splash.jpg
+  overlay_image: /_pages/TrainControl/Warwick-Racing-Splash.jpg
   image_description: "Warwick Racing car racing at Silverstone"
 pagination: 
   enabled: true

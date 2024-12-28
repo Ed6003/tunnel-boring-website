@@ -1,13 +1,12 @@
 ---
 title: Warwick Tunnel Boring
-date: 2024-12-07
 layout: single
 permalink: /portfolio/warwick-tunnel-boring
 collection: portfolio
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
-  overlay_image: /assets/Portfolio/Warwick-Boring-Splash.jpg
+  overlay_image: /_pages/TrainControl/Warwick-Boring-Splash.jpg
   image_description: "Tunnel Interior Splash Screen"
 pagination: 
   enabled: true
