@@ -6,7 +6,7 @@ collection: portfolio
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
-  overlay_image: /_pages/TrainControl/Warwick-Boring-Splash.jpg
+  overlay_image: /_pages/WarwickTunnelBoring/Warwick-Boring-Splash.jpg
   image_description: "Tunnel Interior Splash Screen"
 pagination: 
   enabled: true
@@ -22,6 +22,11 @@ toc_label: "Contents"
 toc_icon: "cog"
 ---
 # Warwick Tunnel Boring
+
+<video width="100%" height="auto" loop autoplay muted>
+  <source src="{{ site.baseurl }}/_pages/WarwickTunnelBoring/TBM_Transparent.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 <iframe src="https://www.warwickboringteam.com/" 
         title="Warwick Boring Team" 

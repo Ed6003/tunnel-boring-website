@@ -17,3 +17,13 @@ Electric Vehicles
 Sustainability
 Photogrammetry
 Engineering Design
+MATLAB
+Simulation
+Numerical Methods
+Algorithm Design
+Simscape
+Vehicle Dynamics
+Java
+Server Management
+API Integration
+Database Management

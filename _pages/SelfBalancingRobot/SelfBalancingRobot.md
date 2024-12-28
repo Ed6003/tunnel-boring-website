@@ -7,7 +7,7 @@ entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
   overlay_image: /_pages/SelfBalancingRobot/Self-Balancing-Robot-Splash.png
-  image_description: "Warwick Racing car racing at Silverstone"
+  image_description: "Self Balancing Robot PID in Simulink"
 pagination: 
   enabled: true
 tags:
@@ -45,4 +45,4 @@ Tuned and compiled **PID** from **Simulink** to **Arduino Mega** using **optimis
 
 ## Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DtUDWxp_Zz0" title="PID Tuning and Arduino Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DtUDWxp_Zz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
