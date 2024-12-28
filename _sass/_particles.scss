@@ -141,3 +141,22 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+// Custom image gallery (for side by side images that auto resize)
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px; /* Adjust spacing between images */
+  align-items: center;
+  justify-items: center;
+  background-color: transparent; /* Transparent background */
+  padding: 10px; /* Optional padding for better spacing */
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px; /* Optional: Add rounded corners */
+  box-shadow: none; /* No shadow to ensure transparency */
+}
