@@ -1,5 +1,5 @@
 ---
-title: CAD Design Showcase
+title: Spring Powered Car
 layout: single
 permalink: /portfolio/spring-powered-car-physical-system-modelling
 collection: portfolio
