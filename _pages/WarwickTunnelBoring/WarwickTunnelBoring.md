@@ -24,7 +24,7 @@ toc_icon: "cog"
 # Warwick Tunnel Boring
 I have been for **2.5+  Years** in the CAD and Simulations team at Warwick Tunnel Boring where I am currently a team lead. Warwick Tunnel Boring is the only UK student team with a TBM and participant at the Not-a-Boring-Competition.
 
-Checkout my [mmTBM]({{ site.baseurl }}/portfolio/mmTBM) project also, a WIP personal tunnel boring project for a small scale functional TBM.
+Check out my [mmTBM]({{ site.baseurl }}/portfolio/mmTBM) project also, a WIP personal tunnel boring project for a small scale functional TBM.
 
 Here is a cool build animation of our current machine I made:
 <div class="video-container" style="display: block;">
