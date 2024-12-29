@@ -33,28 +33,15 @@ Here is a cool build animation of our current machine I made:
   </video>
 </div>
 
+<style>
+  @media (max-width: 768px) {
+    .video-container {
+      display: none !important;
+    }
+  }
+</style>
+
 ## Team Website
-<style>
-  @media (max-width: 768px) {
-    .video-container {
-      display: none !important;
-    }
-  }
-</style>
-
-<div class="video-container" style="display: block;">
-  <video width="100%" height="auto" loop autoplay muted>
-    <source src="{{ site.baseurl }}/_pages/WarwickTunnelBoring/TBM_Transparent.webm" type="video/webm">
-  </video>
-</div>
-
-<style>
-  @media (max-width: 768px) {
-    .video-container {
-      display: none !important;
-    }
-  }
-</style>
 
 <iframe src="https://www.warwickboringteam.com/" 
         title="Warwick Boring Team" 
