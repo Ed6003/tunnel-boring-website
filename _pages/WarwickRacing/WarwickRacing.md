@@ -6,7 +6,7 @@ collection: portfolio
 entries_layout: grid
 #classes: wide # Remove if adding sticky TOC
 header:
-  overlay_image: /_pages/TrainControl/Warwick-Racing-Splash.jpg
+  overlay_image: /_pages/WarwickRacing/Warwick-Racing-Splash.jpg
   image_description: "Warwick Racing car racing at Silverstone"
 pagination: 
   enabled: true
@@ -27,7 +27,7 @@ toc_icon: "cog"
 
 <iframe src="https://warwickracing.org/" 
         title="Warwick Racing" 
-        style="border:none; width:100%; height:600px;"
+        style="border:none; width:100%; height:90vh;"
         allowfullscreen>
 </iframe>
 

@@ -22,6 +22,25 @@ toc_label: "Contents"
 toc_icon: "cog"
 ---
 # Warwick Tunnel Boring
+I have been for **2.5+  Years** in the CAD and Simulations team at Warwick Tunnel Boring where I am currently a team lead. Warwick Tunnel Boring is the only UK student team with a TBM and participant at the Not-a-Boring-Competition.
+
+Checkout my [mmTBM]({{ site.baseurl }}/portfolio/mmTBM) project also, a WIP personal tunnel boring project for a small scale functional TBM.
+
+Here is a cool build animation of our current machine I made:
+<div class="video-container" style="display: block;">
+  <video width="100%" height="auto" loop autoplay muted>
+    <source src="{{ site.baseurl }}/_pages/WarwickTunnelBoring/TBM_Transparent.webm" type="video/webm">
+  </video>
+</div>
+
+## Team Website
+<style>
+  @media (max-width: 768px) {
+    .video-container {
+      display: none !important;
+    }
+  }
+</style>
 
 <div class="video-container" style="display: block;">
   <video width="100%" height="auto" loop autoplay muted>
@@ -39,12 +58,20 @@ toc_icon: "cog"
 
 <iframe src="https://www.warwickboringteam.com/" 
         title="Warwick Boring Team" 
-        style="border:none; width:100%; height:600px;"
+        style="border:none; width:100%; height:90vh;"
         allowfullscreen>
 </iframe>
 
 &nbsp;
-# Key Contributions
+
+## Me at the 2024 Competition
+<img src="{{ site.baseurl }}/_pages/WarwickTunnelBoring/MeAtThe2024Comp.jpeg" alt="Me at the 2024 Competition" style="width: 100%; height: auto;">
+
+<img src="{{ site.baseurl }}/_pages/WarwickTunnelBoring/MeAtThe2024Comp2.jpeg" alt="Me at the 2024 Competition" style="width: 100%; height: auto;">
+
+Photo approval by Carmen (TBC)
+
+## Key Contributions
 
 - Spearheading integration as a **senior technical lead** for CAD and Simulations but with involvement in propulsion, hydraulics, and electronics.
 - Personally responsible for passing **20+ mechanical safety checks** with physical testing, FEA and calculations for regulatory compliance in the attended **2024 competition.** Also supported in the 2023 competition through a Virtual Desktop Instance (VDI) to run simulations remotely.
@@ -53,18 +80,18 @@ toc_icon: "cog"
 - Involvement in marketing, setting up **automated** email marketing campaigns and lead generation, directing sale of old equipment for **fundraising.**
 - Managing documentation such as **bill of materials (BoM),** inventory management and **master CAD model**. Created full inventory list with images.
 
-# Responsibilities
+## Responsibilities
 
 - Collaborated cross-functionally between teams to incorporate CAD models into our TBM.
 - Conducted **Finite Element Analysis (FEA)** simulations to assess structural integrity, performance, and adequate safety index.
 - Provided simulation-driven recommendations to improve TBM components.
 
-# Team Achievements
+## Team Achievements
 
 - **Top 6 Global Finalists** in Elon Musk's Not-a-Boring competition 2023.
 - Achieved impressive results since its founding in 2021, improving competition rankings year on year.
 
-# Skills Developed
+## Skills Developed
 
 - **Autodesk Fusion 360**
 - **Abaqus**
