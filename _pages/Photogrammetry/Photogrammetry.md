@@ -16,7 +16,7 @@ tags:
   - Post-Processing
   - 3D Modelling
 author_profile: true
-toc: true
+toc: false
 toc_sticky: true
 toc_label: "Contents"
 toc_icon: "cog"
@@ -29,7 +29,7 @@ toc_icon: "cog"
         allowfullscreen>
 </iframe>
 
-<div class="image-gallery">
+<div class="image-gallery minmax-250">
   <img src="{{ site.baseurl }}/_pages/Photogrammetry/1_1.png" alt="Image 1">
   <img src="{{ site.baseurl }}/_pages/Photogrammetry/1_2.png" alt="Image 2">
   <img src="{{ site.baseurl }}/_pages/Photogrammetry/1_3.png" alt="Image 3">

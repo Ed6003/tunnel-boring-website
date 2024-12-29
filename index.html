@@ -3,6 +3,48 @@ layout: home
 author_profile: true
 ---
 
+<a href="/portfolio/" style="
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: pulse 2s infinite; /* Animation to attract attention */
+  border: none; /* Ensure there's no border */
+  outline: none; /* Remove outline if any */
+  cursor: pointer; /* Ensure it's clickable */
+">
+
+  Go to Portfolio
+</a>
+
+<style>
+  /* Animation to give the button a pulsing effect */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Hover effect */
+  a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
 <h2>Filter Posts</h2>
 <a class="btn btn--primary" href="{{ site.baseurl }}/year-archive/">Yearly Archive</a>
 <a class="btn btn--primary" href="{{ site.baseurl }}/tags/">By Tags</a>
